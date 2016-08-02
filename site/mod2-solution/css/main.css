@@ -1,0 +1,84 @@
+/* SETTING UP GRID */
+
+.col {
+	width: 30%;
+	float: left;
+	border: 2px solid black;
+	margin: 1.3%;
+	display: inline-block;
+	border-radius: 0 15px 0 15px;
+	box-shadow: 3px 3px 10px black;
+	background: #D6D6B1;
+}
+
+
+/* BASIC STYLES */
+
+body {
+	font-family: 'Arial', sans-serif;
+	background: #DE541E;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: -35px;
+	text-shadow: 5px 5px 10px black;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+}
+
+.container {
+	margin-top: 75px;
+}
+
+.title {
+	text-align: right;
+	padding-top: 0;
+	margin-top: 0.2px;
+	margin-left: 320px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	border-radius: 0 10px 0 10px;
+	font-weight: 700;
+	float: right;
+	width: 20%;
+	color: #fff;
+	background: rgba(0, 0, 0, 0.8);
+	font-weight: normal;
+}
+
+.content {
+	margin-top: -10px;
+	text-align: justify;
+	clear: right;
+}
+
+p {
+	padding: 20px;
+}
+
+/* MEDIA QUERY */
+
+@media (max-width: 992px) {
+	.side {
+		width: 45%;
+		margin: 2.1%;
+	}
+
+	.wide {
+		width: 95%;
+		margin: 2.5%;
+	}
+}
+
+@media (max-width: 768px) {
+	.col {
+		width: 97%;
+		margin: 10px auto;
+	}
+}
+
